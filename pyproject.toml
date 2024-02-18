@@ -1,0 +1,14 @@
+[project]
+name = "fastapi_otel"
+version = "0.0.1"
+authors = [
+    { name = "Georgios Karakostas, email = <https://www.linkedin.com/in/geokarak>" },
+]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "fastapi",
+    "opentelemetry-distro",
+    "opentelemetry-exporter-otlp-proto-grpc",
+    "opentelemetry-instrumentation-fastapi",
+]
